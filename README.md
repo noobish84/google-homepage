@@ -1,0 +1,3 @@
+# Google Homepage clone Odin Project assignment
+***
+This took me much longer than it should have. Was figuring out how to use flexbox for all sections. The icons in the input gave me some trouble. The input itself is still broken as I never managed to keep the input available once I made it's border hidden which seemed to be the only way to get the icons to exist inside the input. Far from perfect, just  a lookalike, but not bad for a beginner.....?

@@ -4,24 +4,75 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Google Clone</title>
+    <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.11.0/build/cssnormalize/cssnormalize-min.css">
+    <link rel="stylesheet" href="./Styles/style.css">
+
+    <title>My Google Homepage clone</title>
 </head>
 <body>
-    <navbar>
-        <ul class="nav-list">
-            <li class="nav-item1">
-                <h2>About</h2>
-            </li>
-            <li class="nav-item2">
-                <h2>Store</h2>
-            </li>
-            <li class="nav-item3">
-               <h2> Gmail</h2>
-            </li>
-            <li class="nav-item4">
-                <h2>Images</h2>
-            </li>
-        </ul>
-    </navbar>
+    <div class="top-bar">
+        <div class="bar-left">
+            <div class="menu">
+                <a href="">About</a>
+                <a href="">Store</a>
+            </div>
+        </div>
+        
+        <div class="bar-right">
+            <div class="menu">
+                <a href="">Gmail</a>
+                <a href="">Images</a>
+            </div>
+            <a href="" class="apps-toggle">
+                <img src="./Images/baseline_apps_black_24dp.png">
+            </a>
+            <a href="" class="user-icon">
+                <img src="Images\Beaker.jpg" alt="user">
+            </a>
+        </div>
+
+    </div>
+
+    <div class= "content">
+        <div class="search-wrapper">
+            <div class="logo">
+                <img src= "Images/googlelogo.png">
+            </div>
+            <div class="search-input">
+                <img class="search" src="Images/search.svg">
+                <input type="text">
+                <img class="mic" src="Images/voice search.svg"> 
+            </div>
+            <div class="buttons">
+                <input class="gosearch" type="button" value="Search">
+                <input class="lucky" type="button" value="I'm Feeling Lucky">
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="foot-left">
+            <div class="foot-menu">
+                <a href="">Advertising</a>
+                <a href="">Business</a>
+                <a href="">How Search Works</a>
+            </div>
+        </div>
+
+            <div class="foot-menu">
+                <div class="foot-center">
+                    <img class="leaf" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABUAAAAYCAMAAAAiV0Z6AAAAPFBMVEVLoEN0wU6CzFKCzFKCzFKCzFKCzFJSo0MSczNDmkCCzFJPoUMTczNdr0gmgziCzFITczMTczMTczMTczPh00jOAAAAFHRSTlPF/+bIsms8Ad///hX+//5/tXw7aMEAx10AAACaSURBVHgBbc4HDoRQCATQ33tbvf9dF9QxaCT9UQaltLHOh/golXKhMs5Xqa0xU1lyoa2fXFyQOsDG38qsLy4TaV+sFislovyhPzLJJrBu6eQOtpW0LjbJkzTuTDLRVNKa3uxJI+VdiRqXSeu6GW+Qxi29eLIi8H7EsYrT42BD+mQtNO5JMjRuC4lSY8V4hsLX0egGijvUSEP9AbylEsOkeCgWAAAAAElFTkSuQmCC">
+                    <a href="">Carbon Neutral Since 2007</a>
+                </div>
+            </div>
+            <div class="foot-right">
+                <div class="foot-menu">
+                    <a href="">Privacy</a>
+                    <a href="">Terms</a>
+                    <a href="">Settings</a>
+                </div>
+            </div>
+    
+        </div>
 </body>
 </html>
